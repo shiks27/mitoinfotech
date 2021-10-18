@@ -1,0 +1,101 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+    align-items: flex-end;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(109, 112, 111);
+}
+.heading{
+    font-weight: bold;
+    font-size: x-large;
+}
+.contact {
+    background-color: rgba(135, 207, 235, 0.836);
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30%;
+    width: 40%;
+    font-family: sans-serif;
+}
+
+label {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.form {
+    background-color: rgba(166, 221, 243, 0.637);
+    margin-left: 30%;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+}
+.desc{
+    font-size: 20px;
+}
+.footer{
+background-color: rgb(22, 22, 22);
+width: 100%;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+/* text-align: center; */
+padding: 1rem;
+}
+.footer .sections{
+margin: 0.6rem;
+}
+.footer .sections .heading{
+font-size: 1.2rem;
+font-weight: 600;
+font-family: sans-serif;
+color: rgb(202, 200, 200);
+margin-bottom: 0.5rem;
+}
+.footer .sections .detail{
+font-size: 0.8rem;
+font-family: sans-serif;
+color: rgb(222, 220, 220);
+margin-bottom: 0.5rem;
+}
+.footer .sections .detail .list{
+list-style: none;
+line-height: 1rem;
+}
+.footer .sections .detail .list li a{
+text-decoration: none;
+color: rgb(222, 220, 220);;
+}
+.submit{
+margin: 1rem;
+padding: 0.3rem;
+padding-left: 0.9rem;
+padding-right: 0.9rem;
+font-size: 0.8rem;
+border:1.4px solid rgb(112, 112, 112);  
+border-radius: 5px;
+background-color: rgb(202, 202, 202);
+font-family: Times, serif; 
+}
